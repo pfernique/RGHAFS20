@@ -1,0 +1,117 @@
+# Material and methods
+
+## Study species
+
+## GMR
+
+## Study sites
+
+## Stereo-DOV
+
+## Raw data acquisition
+
+## Data analysis
+
+### Still image acquisition
+
+{Raw data pas utilisable : se concentre sur still images...}
+
+### Still image representation
+
+The still images selected were analyzed using the Event Measure software (SeaGIS, Australia) for stereo-video analysis.
+3D coordinates of fishes and randomly selected points of substrate were therefore obtained.
+Using these coordinates we were able to reconstruct the observed scene (see Fig. XX) using Python bindings of the Visualization ToolKit (VTK) software [SLM04] :
+
+* The substrate is represented using a yellow surface that correspond to the 2D Delauney triangulation of available substrate points.
+
+* Males (resp. females) are represented using blue (resp. red) spheres.
+
+{interet images: analyse exploratoire...}
+
+### Analysis of still images
+
+All analysis were conducted using Python [Arb10] and R [R11] softwares and are available as a Python package on GitHub [http://github.com/pfernique/wanda] and added to this article as an IPython Notebook [PG07] supplementary material.
+Figures were realized using the matplotlib package [Hun07] and communication between Python and R was tackled using the pandas [Kin12] and RPy2 packages.
+
+From still images with fish and substrate coordinates, few features were computed in order to characterize the spawning aggregation:
+
+*   "Volumetric densities". {Ajouter pk c'est interessant}
+    Given a fish aggregation, its volumetric density can be easily computed as the number of fish divided by the volume of the convex hull [JOP01] enclosing the fish aggregation.
+    Given several fish aggregations there is a great temptation to directly compare the volumetric densities of these several aggregations.
+    In fact, if fishes are not uniformly distributed within each aggregation this approach would lead to serious biases.
+    Let us assume that males and females are not uniformly distributed within each aggregation but on the contrary, that the volumetric density is decreasing with the spreading of aggregations.
+    If this tendency is the same for males and females but that males tends to more numerous than females, the volume of the male aggregation would be bigger than the female one.
+    While volumetric densities are the same of a given number of fish for males and females, the former approach would lead us to believe that the volumetric density of males tend to be less important than the female one which is erroneous: males only tend to be more numerous than females.
+    In order to compare males and females volumetric densities we therefore investigated the volumetric density feature as a function of the spreading of the aggregation, assimilated to the radius of the sphere centered on the aggregation and enclosing the fishes.
+    Therefore, for each of aggregation obtained from still images, we considered spheres centered on the aggregation barycenter with a radius ranging from the closest to the farthest fish to compute as many densities as fish inside the initial aggregation, each of the density being indexed by the radius of the corresponding sphere.
+
+*   "Distances". {Ajouter pk c'est interessant + liste des distances et pk elle en particulier}
+    Since distances are non-negative real numbers and are characterized by right-skewed distributions, the normality assumption of distances is violated.
+    To highlight statistical differences for a given distance between males and females, we therefore considered GLMs with Gamma distributions [DB08].
+    In such an analysis, the distance is the response variable and the gender the explanatory variable.
+    This context enable the statistical comparison of distances by testing if the parameter associated to the gender is significantly different from 0. (p-value inferior to .05) or using information criterion such as Akaike Information Criterion (AIC) and the Bayesian Information Criterion (BIC) to compare the model with the gender as an explanatory variable to the model without explanatory variable.
+    Since both approaches gave similar results we will in the corpus only display the p-value associated to the parameter but the reader can refer to the supplementary material for more details.
+
+*   "Operational Sex Ratio (OSR)". {Ajouter pk c'est interessant}
+    In order to estimate the average number of females available per male, the OSR given by the number of females divided by the number of males was computed for each frame with a least one male and one female.
+
+### Supplementary analyses
+
+{Justifier le pk de cette nouvelle experience: lier comptages ac biomasse ?}
+{Classification ???}
+
+# Results {Trop catalogue, deplacer une partie de la discussion qui est du resultat la dedans: discution != interpretation}
+
+## Behaviour patterns of Bodanius diplotaenia
+
+...
+
+## Abundance and biomass at survey sites
+
+{+/- ?}
+
+...
+
+## Spawning aggregation characteristics
+
+...
+
+### Volumetic density as a function of the spreading of the aggregation
+
+When plotting the log-density of individuals against the log-radius of the circle centered on the aggregation and enclosing the fishes, it appears clearly that fishes are not uniformly distributed into their aggregation.
+In particular, the relation of the form D = a * R^b seems to be relevant in order to describe the volumetric density (D) as a function of the spreading of the aggregation (R).
+The parameters a and b were estimated for males (aM, bM) on the one hand and females (aF, bF) on the other hand by an ordinary least square regression after a logarithmic transformation.
+If the difference between aM and aF was considered as significantly different from 0. (p-value < 2.2e-16), it was not the case (p-value = 0.17) for the difference between bM and bF.
+We therefore re-estimated the relationship parameters considering that bM = bF = b, which gave :
+
+...
+
+This result is particularly interesting since it indicates that, for a given spreading of the aggregation, densities of males and females are not the same but that these densities evolve in the same way considering the spreading of the aggregation.
+For any spreading of a fish aggregation, the density of a female aggregation is therefore 1.98 ~= 2. times higher than a male one.
+{a relier au sex-ratio ~= 2.}
+
+# Discussion
+
+Considering still images, an approach where fishes are not assimilated to points but where some biomass related features are collected could be of most interest in order to have more precise biomass estimates.
+Since fish weight is unknown on still images, in order to estimate a biomass, each fish weight is set to the mean weight of the population that is estimated from an independent experiment.
+As illustrated by Kulbicki [ref] allometric relationships can be established in order to estimate the fish weight given a particular feature (Fork length, width, head height...).
+Since lengths These allometric relationships could therefore be used in order to predict fish weights.
+Note that the use of only one feature (e.g. fork length) would lead to biased estimates (i.e. all fishes that are not perpendicular to the camera axes will have a mismeasured fork length) but a combination of non-collinear features (i.e. fork length, width and head height) could be used and lead to precise biomass predictions.
+
+# References
+
+Book (AFB10) Aback, D. Python Testing: Beginner's Guide Packt Publishing Ltd, 2010
+
+Manual (R11) R Development Core Team R: A Language and Environment for Statistical Computing 2011
+
+Article (PG07) Perez, F. & Granger, B. E. IPython: a system for interactive scientific computing Computing in Science & Engineering, AIP Publishing, 2007, 9, 21-29
+
+Article (Hun07) Hunter, J. D. Matplotlib: A 2D graphics environment IEEE Transactions on Computing in Science & Engineering, IEEE Computer Society, 2007, 9, 0090-95
+
+Article (Kin12) McKinney, W. pandas: a python data analysis library see http://pandas. pydata. org, 2012
+
+Book (SLM04) Schroeder, W. J.; Lorensen, B. & Martin, K. The visualization toolkit Kitware, 2004
+
+Article (JOP01) Jones, E.; Oliphant, T. & Peterson, P. SciPy: Open source scientific tools for Python http://www. scipy. org/, 2001
+
+Book (DB08) Dobson, A. J. & Barnett, A. An introduction to generalized linear models CRC press, 2008
