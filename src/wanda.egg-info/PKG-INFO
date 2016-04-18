@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: wanda
+Version: 1.0.0
+Summary: wanda package for .
+Home-page: http://openalea.gforge.inria.fr
+Author: P. Fernique, E. Rastoin
+Author-email: pierre.fernique@inria.fr,
+License: Cecill-C
+Description: The wanda package is a typical package example to help developper to create their own package, compatible with OpenAlea standards.
+Platform: UNKNOWN
