@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with matplotlib (http://matplotlib.org/) -->
+<svg height="312pt" version="1.1" viewBox="0 0 888 312" width="888pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+*{stroke-linecap:butt;stroke-linejoin:round;}
+  </style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="
+M0 312.098
+L888.013 312.098
+L888.013 0
+L0 0
+z
+" style="fill:#ffffff;"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="
+M43.8125 291.22
+L880.812 291.22
+L880.812 12.2203
+L43.8125 12.2203
+<<<<<<< HEAD
+L43.8125 291.22" style="fill:none;"/>
+=======
+z
+" style="fill:#ffffff;"/>
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
+   </g>
+   <g id="patch_3">
+    <path clip-path="url(#pe51a74a610)" d="
+M106.588 291.22
+L148.438 291.22
+L148.438 124.292
+L106.588 124.292
+z
+" style="fill-opacity:0.5;stroke:#000000;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_4">
+    <path clip-path="url(#pe51a74a610)" d="
+M148.438 291.22
+L190.288 291.22
+L190.288 17.2269
+L148.438 17.2269
+z
+" style="fill-opacity:0.5;stroke:#000000;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_5">
+    <path clip-path="url(#pe51a74a610)" d="
+M273.988 291.22
+L315.838 291.22
+L315.838 259.083
+L273.988 259.083
+z
+" style="fill-opacity:0.5;stroke:#000000;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_6">
+    <path clip-path="url(#pe51a74a610)" d="
+z
+" style="fill-opacity:0.5;stroke:#000000;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_7">
+    <path clip-path="url(#pe51a74a610)" d="
+M357.688 291.22
+L399.538 291.22
+L399.538 273.072
+L357.688 273.072
+z
+" style="fill-opacity:0.5;stroke:#000000;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_8">
+    <path clip-path="url(#pe51a74a610)" d="
+z
+" style="fill-opacity:0.5;stroke:#000000;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_9">
+    <path clip-path="url(#pe51a74a610)" d="
+M525.088 291.22
+L566.938 291.22
+L566.938 282.351
+L525.088 282.351
+z
+" style="fill-opacity:0.5;stroke:#000000;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_10">
+    <path clip-path="url(#pe51a74a610)" d="
+M566.938 291.22
+L608.788 291.22
+L608.788 286.774
+L566.938 286.774
+z
+" style="fill-opacity:0.5;stroke:#000000;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_11">
+    <path clip-path="url(#pe51a74a610)" d="
+M692.488 291.22
+L734.338 291.22
+L734.338 276.493
+L692.488 276.493
+z
+" style="fill-opacity:0.5;stroke:#000000;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_12">
+    <path clip-path="url(#pe51a74a610)" d="
+M734.337 291.22
+L776.188 291.22
+L776.188 263.644
+L734.337 263.644
+z
+" style="fill-opacity:0.5;stroke:#000000;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_13">
+    <path clip-path="url(#pe51a74a610)" d="
+M776.188 291.22
+L818.038 291.22
+L818.038 281.443
+L776.188 281.443
+z
+" style="fill-opacity:0.5;stroke:#000000;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_14">
+    <path d="
+M43.8125 12.2203
+L880.812 12.2203" style="fill:none;stroke:#000000;stroke-linecap:square;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_15">
+    <path d="
+M880.812 291.22
+L880.812 12.2203" style="fill:none;stroke:#000000;stroke-linecap:square;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_16">
+    <path d="
+M43.8125 291.22
+L880.812 291.22" style="fill:none;stroke:#000000;stroke-linecap:square;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_17">
+    <path d="
+M43.8125 291.22
+L43.8125 12.2203" style="fill:none;stroke:#000000;stroke-linecap:square;stroke-linejoin:miter;"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path d="
+M0 0
+L0 -4" id="m93b0483c22" style="stroke:#000000;stroke-width:0.5;"/>
+      </defs>
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="148.4375" xlink:href="#m93b0483c22" y="291.220301845"/>
+      </g>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path d="
+M0 0
+L0 4" id="m741efc42ff" style="stroke:#000000;stroke-width:0.5;"/>
+      </defs>
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="148.4375" xlink:href="#m741efc42ff" y="12.2203018454"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 148.437500, 302.818739)" x="148.4375" y="302.818739345">Bahia Gardner norte A</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="336.7625" xlink:href="#m93b0483c22" y="291.220301845"/>
+      </g>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="336.7625" xlink:href="#m741efc42ff" y="12.2203018454"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 336.762500, 302.818739)" x="336.7625" y="302.818739345">Bahia Gardner norte C</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="546.0125" xlink:href="#m93b0483c22" y="291.220301845"/>
+      </g>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="546.0125" xlink:href="#m741efc42ff" y="12.2203018454"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 546.012500, 302.818739)" x="546.0125" y="302.818739345">Islote Gardner C</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="755.2625" xlink:href="#m93b0483c22" y="291.220301845"/>
+      </g>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="755.2625" xlink:href="#m741efc42ff" y="12.2203018454"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 755.262500, 302.818739)" x="755.2625" y="302.818739345">Punta Suarez C</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_9">
+      <defs>
+       <path d="
+M0 0
+L4 0" id="m728421d6d4" style="stroke:#000000;stroke-width:0.5;"/>
+      </defs>
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="43.8125" xlink:href="#m728421d6d4" y="291.220301845"/>
+      </g>
+     </g>
+     <g id="line2d_10">
+      <defs>
+       <path d="
+M0 0
+L-4 0" id="mcb0005524f" style="stroke:#000000;stroke-width:0.5;"/>
+      </defs>
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="880.8125" xlink:href="#mcb0005524f" y="291.220301845"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:end;" transform="rotate(-0.000000, 39.812500, 293.979677)" x="39.8125" y="293.979676845">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_11">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="43.8125" xlink:href="#m728421d6d4" y="256.345301845"/>
+      </g>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="880.8125" xlink:href="#mcb0005524f" y="256.345301845"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:end;" transform="rotate(-0.000000, 39.812500, 259.104677)" x="39.8125" y="259.104676845">100</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_13">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="43.8125" xlink:href="#m728421d6d4" y="221.470301845"/>
+      </g>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="880.8125" xlink:href="#mcb0005524f" y="221.470301845"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:end;" transform="rotate(-0.000000, 39.812500, 224.229677)" x="39.8125" y="224.229676845">200</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_15">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="43.8125" xlink:href="#m728421d6d4" y="186.595301845"/>
+      </g>
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="880.8125" xlink:href="#mcb0005524f" y="186.595301845"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:end;" transform="rotate(-0.000000, 39.812500, 189.354677)" x="39.8125" y="189.354676845">300</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_17">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="43.8125" xlink:href="#m728421d6d4" y="151.720301845"/>
+      </g>
+     </g>
+     <g id="line2d_18">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="880.8125" xlink:href="#mcb0005524f" y="151.720301845"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:end;" transform="rotate(-0.000000, 39.812500, 154.479677)" x="39.8125" y="154.479676845">400</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_19">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="43.8125" xlink:href="#m728421d6d4" y="116.845301845"/>
+      </g>
+     </g>
+     <g id="line2d_20">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="880.8125" xlink:href="#mcb0005524f" y="116.845301845"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:end;" transform="rotate(-0.000000, 39.812500, 119.604677)" x="39.8125" y="119.604676845">500</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_21">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="43.8125" xlink:href="#m728421d6d4" y="81.9703018454"/>
+      </g>
+     </g>
+     <g id="line2d_22">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="880.8125" xlink:href="#mcb0005524f" y="81.9703018454"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:end;" transform="rotate(-0.000000, 39.812500, 84.729677)" x="39.8125" y="84.7296768454">600</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_23">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="43.8125" xlink:href="#m728421d6d4" y="47.0953018454"/>
+      </g>
+     </g>
+     <g id="line2d_24">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="880.8125" xlink:href="#mcb0005524f" y="47.0953018454"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:end;" transform="rotate(-0.000000, 39.812500, 49.854677)" x="39.8125" y="49.8546768454">700</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_25">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="43.8125" xlink:href="#m728421d6d4" y="12.2203018454"/>
+      </g>
+     </g>
+     <g id="line2d_26">
+      <g>
+       <use style="stroke:#000000;stroke-width:0.5;" x="880.8125" xlink:href="#mcb0005524f" y="12.2203018454"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:end;" transform="rotate(-0.000000, 39.812500, 14.979677)" x="39.8125" y="14.9796768454">800</text>
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-90.000000, 14.798438, 151.720302)" x="14.7984375" y="151.720301845">log(Biomass)</text>
+    </g>
+   </g>
+   <g id="text_15">
+    <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 127.512500, 121.863650)" x="127.5125" y="121.863650153">34</text>
+   </g>
+   <g id="text_16">
+    <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 169.362500, 14.798438)" x="169.3625" y="14.7984375">58</text>
+   </g>
+   <g id="text_17">
+    <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 294.912500, 256.654750)" x="294.9125" y="256.654749928">7</text>
+   </g>
+   <g id="text_18">
+    <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 336.762500, 288.791864)" x="336.7625" y="288.791864345">1</text>
+   </g>
+   <g id="text_19">
+    <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 378.612500, 270.643846)" x="378.6125" y="270.643845936">4</text>
+   </g>
+   <g id="text_20">
+    <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 504.162500, 288.791864)" x="504.1625" y="288.791864345">1</text>
+   </g>
+   <g id="text_21">
+    <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 546.012500, 279.922240)" x="546.0125" y="279.922239586">2</text>
+   </g>
+   <g id="text_22">
+    <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 587.862500, 284.345473)" x="587.8625" y="284.345473232">1</text>
+   </g>
+   <g id="text_23">
+    <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 713.412500, 274.064900)" x="713.4125" y="274.064899902">3</text>
+   </g>
+   <g id="text_24">
+    <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 755.262500, 261.215838)" x="755.2625" y="261.215838303">6</text>
+   </g>
+   <g id="text_25">
+    <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 797.112500, 279.014421)" x="797.1125" y="279.014420846">2</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pe51a74a610">
+   <rect height="279.0" width="837.0" x="43.8125" y="12.2203018454"/>
+  </clipPath>
+ </defs>
+</svg>

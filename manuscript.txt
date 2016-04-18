@@ -1,0 +1,1 @@
+Moreover, using GPS coordinates of the camera, its positions and movements we could be able to compute absolute in place of relative coordinates for each frame and therefore reconstruct the entire video into a 3D scene.
