@@ -25,7 +25,12 @@ M37.45 291.039
 L874.45 291.039
 L874.45 12.0391
 L37.45 12.0391
+<<<<<<< HEAD
 L37.45 291.039" style="fill:none;"/>
+=======
+z
+" style="fill:#ffffff;"/>
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
    </g>
    <g id="patch_3">
     <path clip-path="url(#p0705d029b2)" d="

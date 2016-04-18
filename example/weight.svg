@@ -2,7 +2,11 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Created with matplotlib (http://matplotlib.org/) -->
+<<<<<<< HEAD
 <svg height="326pt" version="1.1" viewBox="0 0 893 326" width="893pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+=======
+<svg height="326pt" version="1.1" viewBox="0 0 884 326" width="884pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
  <defs>
   <style type="text/css">
 *{stroke-linecap:butt;stroke-linejoin:round;}
@@ -12,8 +16,13 @@
   <g id="patch_1">
    <path d="
 M0 326.595
+<<<<<<< HEAD
 L893.798 326.595
 L893.798 0
+=======
+L884.17 326.595
+L884.17 0
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
 L0 0
 z
 " style="fill:#ffffff;"/>
@@ -25,6 +34,7 @@ M37.45 291.039
 L874.45 291.039
 L874.45 12.0391
 L37.45 12.0391
+<<<<<<< HEAD
 L37.45 291.039" style="fill:none;"/>
    </g>
    <g id="patch_3">
@@ -33,177 +43,321 @@ M68.8123 291.039
 L144.733 291.039
 L144.733 231.253
 L68.8123 231.253
+=======
+z
+" style="fill:#ffffff;"/>
+   </g>
+   <g id="patch_3">
+    <path clip-path="url(#p0705d029b2)" d="
+M37.7979 291.039
+L118.152 291.039
+L118.152 275.096
+L37.7979 275.096
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
 z
 " style="opacity:0.3;stroke:#000000;stroke-linejoin:miter;"/>
    </g>
    <g id="patch_4">
     <path clip-path="url(#p0705d029b2)" d="
+<<<<<<< HEAD
 M144.733 291.039
 L220.654 291.039
 L220.654 171.468
 L144.733 171.468
+=======
+M118.152 291.039
+L198.507 291.039
+L198.507 279.082
+L118.152 279.082
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
 z
 " style="opacity:0.3;stroke:#000000;stroke-linejoin:miter;"/>
    </g>
    <g id="patch_5">
     <path clip-path="url(#p0705d029b2)" d="
+<<<<<<< HEAD
 M220.654 291.039
 L296.574 291.039
 L296.574 103.71
 L220.654 103.71
+=======
+M198.507 291.039
+L278.861 291.039
+L278.861 287.053
+L198.507 287.053
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
 z
 " style="opacity:0.3;stroke:#000000;stroke-linejoin:miter;"/>
    </g>
    <g id="patch_6">
     <path clip-path="url(#p0705d029b2)" d="
+<<<<<<< HEAD
 M296.574 291.039
 L372.495 291.039
 L372.495 163.496
 L296.574 163.496
+=======
+M278.861 291.039
+L359.215 291.039
+L359.215 283.068
+L278.861 283.068
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
 z
 " style="opacity:0.3;stroke:#000000;stroke-linejoin:miter;"/>
    </g>
    <g id="patch_7">
     <path clip-path="url(#p0705d029b2)" d="
+<<<<<<< HEAD
 M372.495 291.039
 L448.416 291.039
 L448.416 199.368
 L372.495 199.368
+=======
+M359.215 291.039
+L439.569 291.039
+L439.569 259.153
+L359.215 259.153
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
 z
 " style="opacity:0.3;stroke:#000000;stroke-linejoin:miter;"/>
    </g>
    <g id="patch_8">
     <path clip-path="url(#p0705d029b2)" d="
+<<<<<<< HEAD
 M448.416 291.039
 L524.336 291.039
 L524.336 259.153
 L448.416 259.153
+=======
+M439.569 291.039
+L519.924 291.039
+L519.924 199.368
+L439.569 199.368
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
 z
 " style="opacity:0.3;stroke:#000000;stroke-linejoin:miter;"/>
    </g>
    <g id="patch_9">
     <path clip-path="url(#p0705d029b2)" d="
+<<<<<<< HEAD
 M524.336 291.039
 L600.257 291.039
 L600.257 283.068
 L524.336 283.068
+=======
+M519.924 291.039
+L600.278 291.039
+L600.278 163.496
+L519.924 163.496
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
 z
 " style="opacity:0.3;stroke:#000000;stroke-linejoin:miter;"/>
    </g>
    <g id="patch_10">
     <path clip-path="url(#p0705d029b2)" d="
+<<<<<<< HEAD
 M600.257 291.039
 L676.178 291.039
 L676.178 287.053
 L600.257 287.053
+=======
+M600.278 291.039
+L680.632 291.039
+L680.632 103.71
+L600.278 103.71
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
 z
 " style="opacity:0.3;stroke:#000000;stroke-linejoin:miter;"/>
    </g>
    <g id="patch_11">
     <path clip-path="url(#p0705d029b2)" d="
+<<<<<<< HEAD
 M676.178 291.039
 L752.098 291.039
 L752.098 279.082
 L676.178 279.082
+=======
+M680.632 291.039
+L760.987 291.039
+L760.987 171.468
+L680.632 171.468
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
 z
 " style="opacity:0.3;stroke:#000000;stroke-linejoin:miter;"/>
    </g>
    <g id="patch_12">
     <path clip-path="url(#p0705d029b2)" d="
+<<<<<<< HEAD
 M752.098 291.039
 L828.019 291.039
 L828.019 275.096
 L752.098 275.096
+=======
+M760.987 291.039
+L841.341 291.039
+L841.341 231.253
+L760.987 231.253
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
 z
 " style="opacity:0.3;stroke:#000000;stroke-linejoin:miter;"/>
    </g>
    <g id="patch_13">
     <path clip-path="url(#p0705d029b2)" d="
+<<<<<<< HEAD
 M42.573 291.039
 L78.8339 291.039
 L78.8339 83.7819
 L42.573 83.7819
+=======
+M485.509 291.039
+L523.863 291.039
+L523.863 287.053
+L485.509 287.053
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
 z
 " style="opacity:0.6;stroke:#000000;stroke-linejoin:miter;"/>
    </g>
    <g id="patch_14">
     <path clip-path="url(#p0705d029b2)" d="
+<<<<<<< HEAD
 M78.8339 291.039
 L115.095 291.039
 L115.095 35.9533
 L78.8339 35.9533
+=======
+M523.863 291.039
+L562.217 291.039
+L562.217 291.039
+L523.863 291.039
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
 z
 " style="opacity:0.6;stroke:#000000;stroke-linejoin:miter;"/>
    </g>
    <g id="patch_15">
     <path clip-path="url(#p0705d029b2)" d="
+<<<<<<< HEAD
 M115.095 291.039
 L151.356 291.039
 L151.356 239.225
 L115.095 239.225
+=======
+M562.217 291.039
+L600.571 291.039
+L600.571 287.053
+L562.217 287.053
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
 z
 " style="opacity:0.6;stroke:#000000;stroke-linejoin:miter;"/>
    </g>
    <g id="patch_16">
     <path clip-path="url(#p0705d029b2)" d="
+<<<<<<< HEAD
 M151.356 291.039
 L187.617 291.039
 L187.617 263.139
 L151.356 263.139
+=======
+M600.571 291.039
+L638.925 291.039
+L638.925 291.039
+L600.571 291.039
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
 z
 " style="opacity:0.6;stroke:#000000;stroke-linejoin:miter;"/>
    </g>
    <g id="patch_17">
     <path clip-path="url(#p0705d029b2)" d="
+<<<<<<< HEAD
 M187.617 291.039
 L223.878 291.039
 L223.878 279.082
 L187.617 279.082
+=======
+M638.925 291.039
+L677.279 291.039
+L677.279 287.053
+L638.925 287.053
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
 z
 " style="opacity:0.6;stroke:#000000;stroke-linejoin:miter;"/>
    </g>
    <g id="patch_18">
     <path clip-path="url(#p0705d029b2)" d="
+<<<<<<< HEAD
 M223.878 291.039
 L260.139 291.039
 L260.139 287.053
 L223.878 287.053
+=======
+M677.279 291.039
+L715.633 291.039
+L715.633 279.082
+L677.279 279.082
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
 z
 " style="opacity:0.6;stroke:#000000;stroke-linejoin:miter;"/>
    </g>
    <g id="patch_19">
     <path clip-path="url(#p0705d029b2)" d="
+<<<<<<< HEAD
 M260.139 291.039
 L296.399 291.039
 L296.399 291.039
 L260.139 291.039
+=======
+M715.633 291.039
+L753.987 291.039
+L753.987 263.139
+L715.633 263.139
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
 z
 " style="opacity:0.6;stroke:#000000;stroke-linejoin:miter;"/>
    </g>
    <g id="patch_20">
     <path clip-path="url(#p0705d029b2)" d="
+<<<<<<< HEAD
 M296.399 291.039
 L332.66 291.039
 L332.66 287.053
 L296.399 287.053
+=======
+M753.987 291.039
+L792.341 291.039
+L792.341 239.225
+L753.987 239.225
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
 z
 " style="opacity:0.6;stroke:#000000;stroke-linejoin:miter;"/>
    </g>
    <g id="patch_21">
     <path clip-path="url(#p0705d029b2)" d="
+<<<<<<< HEAD
 M332.66 291.039
 L368.921 291.039
 L368.921 291.039
 L332.66 291.039
+=======
+M792.341 291.039
+L830.695 291.039
+L830.695 35.9533
+L792.341 35.9533
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
 z
 " style="opacity:0.6;stroke:#000000;stroke-linejoin:miter;"/>
    </g>
    <g id="patch_22">
     <path clip-path="url(#p0705d029b2)" d="
+<<<<<<< HEAD
 M368.921 291.039
 L405.182 291.039
 L405.182 287.053
 L368.921 287.053
+=======
+M830.695 291.039
+L869.049 291.039
+L869.049 83.7819
+L830.695 83.7819
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
 z
 " style="opacity:0.6;stroke:#000000;stroke-linejoin:miter;"/>
    </g>
@@ -250,87 +404,152 @@ L0 4" id="m741efc42ff" style="stroke:#000000;stroke-width:0.5;"/>
       </g>
      </g>
      <g id="text_1">
+<<<<<<< HEAD
       <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 37.450000, 302.637500)" x="37.45" y="302.6375">0</text>
+=======
+      <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 37.450000, 302.637500)" x="37.45" y="302.6375">−1200000</text>
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
      </g>
     </g>
     <g id="xtick_2">
      <g id="line2d_3">
       <g>
+<<<<<<< HEAD
        <use style="stroke:#000000;stroke-width:0.5;" x="130.45" xlink:href="#m93b0483c22" y="291.0390625"/>
+=======
+       <use style="stroke:#000000;stroke-width:0.5;" x="176.95" xlink:href="#m93b0483c22" y="291.0390625"/>
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       </g>
      </g>
      <g id="line2d_4">
       <g>
+<<<<<<< HEAD
        <use style="stroke:#000000;stroke-width:0.5;" x="130.45" xlink:href="#m741efc42ff" y="12.0390625"/>
       </g>
      </g>
      <g id="text_2">
       <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 130.450000, 302.637500)" x="130.45" y="302.6375">500</text>
+=======
+       <use style="stroke:#000000;stroke-width:0.5;" x="176.95" xlink:href="#m741efc42ff" y="12.0390625"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 176.950000, 302.637500)" x="176.95" y="302.6375">−1000000</text>
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
      </g>
     </g>
     <g id="xtick_3">
      <g id="line2d_5">
       <g>
+<<<<<<< HEAD
        <use style="stroke:#000000;stroke-width:0.5;" x="223.45" xlink:href="#m93b0483c22" y="291.0390625"/>
+=======
+       <use style="stroke:#000000;stroke-width:0.5;" x="316.45" xlink:href="#m93b0483c22" y="291.0390625"/>
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       </g>
      </g>
      <g id="line2d_6">
       <g>
+<<<<<<< HEAD
        <use style="stroke:#000000;stroke-width:0.5;" x="223.45" xlink:href="#m741efc42ff" y="12.0390625"/>
       </g>
      </g>
      <g id="text_3">
       <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 223.450000, 302.637500)" x="223.45" y="302.6375">1000</text>
+=======
+       <use style="stroke:#000000;stroke-width:0.5;" x="316.45" xlink:href="#m741efc42ff" y="12.0390625"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 316.450000, 302.637500)" x="316.45" y="302.6375">−800000</text>
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
      </g>
     </g>
     <g id="xtick_4">
      <g id="line2d_7">
       <g>
+<<<<<<< HEAD
        <use style="stroke:#000000;stroke-width:0.5;" x="316.45" xlink:href="#m93b0483c22" y="291.0390625"/>
+=======
+       <use style="stroke:#000000;stroke-width:0.5;" x="455.95" xlink:href="#m93b0483c22" y="291.0390625"/>
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       </g>
      </g>
      <g id="line2d_8">
       <g>
+<<<<<<< HEAD
        <use style="stroke:#000000;stroke-width:0.5;" x="316.45" xlink:href="#m741efc42ff" y="12.0390625"/>
       </g>
      </g>
      <g id="text_4">
       <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 316.450000, 302.637500)" x="316.45" y="302.6375">1500</text>
+=======
+       <use style="stroke:#000000;stroke-width:0.5;" x="455.95" xlink:href="#m741efc42ff" y="12.0390625"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 455.950000, 302.637500)" x="455.95" y="302.6375">−600000</text>
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
      </g>
     </g>
     <g id="xtick_5">
      <g id="line2d_9">
       <g>
+<<<<<<< HEAD
        <use style="stroke:#000000;stroke-width:0.5;" x="409.45" xlink:href="#m93b0483c22" y="291.0390625"/>
+=======
+       <use style="stroke:#000000;stroke-width:0.5;" x="595.45" xlink:href="#m93b0483c22" y="291.0390625"/>
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       </g>
      </g>
      <g id="line2d_10">
       <g>
+<<<<<<< HEAD
        <use style="stroke:#000000;stroke-width:0.5;" x="409.45" xlink:href="#m741efc42ff" y="12.0390625"/>
       </g>
      </g>
      <g id="text_5">
       <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 409.450000, 302.637500)" x="409.45" y="302.6375">2000</text>
+=======
+       <use style="stroke:#000000;stroke-width:0.5;" x="595.45" xlink:href="#m741efc42ff" y="12.0390625"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 595.450000, 302.637500)" x="595.45" y="302.6375">−400000</text>
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
      </g>
     </g>
     <g id="xtick_6">
      <g id="line2d_11">
       <g>
+<<<<<<< HEAD
        <use style="stroke:#000000;stroke-width:0.5;" x="502.45" xlink:href="#m93b0483c22" y="291.0390625"/>
+=======
+       <use style="stroke:#000000;stroke-width:0.5;" x="734.95" xlink:href="#m93b0483c22" y="291.0390625"/>
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       </g>
      </g>
      <g id="line2d_12">
       <g>
+<<<<<<< HEAD
        <use style="stroke:#000000;stroke-width:0.5;" x="502.45" xlink:href="#m741efc42ff" y="12.0390625"/>
       </g>
      </g>
      <g id="text_6">
       <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 502.450000, 302.637500)" x="502.45" y="302.6375">2500</text>
+=======
+       <use style="stroke:#000000;stroke-width:0.5;" x="734.95" xlink:href="#m741efc42ff" y="12.0390625"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 734.950000, 302.637500)" x="734.95" y="302.6375">−200000</text>
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
      </g>
     </g>
     <g id="xtick_7">
      <g id="line2d_13">
       <g>
+<<<<<<< HEAD
        <use style="stroke:#000000;stroke-width:0.5;" x="595.45" xlink:href="#m93b0483c22" y="291.0390625"/>
       </g>
      </g>
@@ -380,21 +599,39 @@ L0 4" id="m741efc42ff" style="stroke:#000000;stroke-width:0.5;"/>
       </g>
      </g>
      <g id="line2d_20">
+=======
+       <use style="stroke:#000000;stroke-width:0.5;" x="874.45" xlink:href="#m93b0483c22" y="291.0390625"/>
+      </g>
+     </g>
+     <g id="line2d_14">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <g>
        <use style="stroke:#000000;stroke-width:0.5;" x="874.45" xlink:href="#m741efc42ff" y="12.0390625"/>
       </g>
      </g>
+<<<<<<< HEAD
      <g id="text_10">
       <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 874.450000, 302.637500)" x="874.45" y="302.6375">4500</text>
      </g>
     </g>
     <g id="text_11">
+=======
+     <g id="text_7">
+      <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 874.450000, 302.637500)" x="874.45" y="302.6375">0</text>
+     </g>
+    </g>
+    <g id="text_8">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
      <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-0.000000, 455.950000, 317.315625)" x="455.95" y="317.315625">Weight</text>
     </g>
    </g>
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
+<<<<<<< HEAD
      <g id="line2d_21">
+=======
+     <g id="line2d_15">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <defs>
        <path d="
 M0 0
@@ -404,7 +641,11 @@ L4 0" id="m728421d6d4" style="stroke:#000000;stroke-width:0.5;"/>
        <use style="stroke:#000000;stroke-width:0.5;" x="37.45" xlink:href="#m728421d6d4" y="291.0390625"/>
       </g>
      </g>
+<<<<<<< HEAD
      <g id="line2d_22">
+=======
+     <g id="line2d_16">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <defs>
        <path d="
 M0 0
@@ -414,116 +655,208 @@ L-4 0" id="mcb0005524f" style="stroke:#000000;stroke-width:0.5;"/>
        <use style="stroke:#000000;stroke-width:0.5;" x="874.45" xlink:href="#mcb0005524f" y="291.0390625"/>
       </g>
      </g>
+<<<<<<< HEAD
      <g id="text_12">
+=======
+     <g id="text_9">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:end;" transform="rotate(-0.000000, 33.450000, 293.798437)" x="33.45" y="293.7984375">0</text>
      </g>
     </g>
     <g id="ytick_2">
+<<<<<<< HEAD
      <g id="line2d_23">
+=======
+     <g id="line2d_17">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <g>
        <use style="stroke:#000000;stroke-width:0.5;" x="37.45" xlink:href="#m728421d6d4" y="251.181919643"/>
       </g>
      </g>
+<<<<<<< HEAD
      <g id="line2d_24">
+=======
+     <g id="line2d_18">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <g>
        <use style="stroke:#000000;stroke-width:0.5;" x="874.45" xlink:href="#mcb0005524f" y="251.181919643"/>
       </g>
      </g>
+<<<<<<< HEAD
      <g id="text_13">
+=======
+     <g id="text_10">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:end;" transform="rotate(-0.000000, 33.450000, 253.941295)" x="33.45" y="253.941294643">10</text>
      </g>
     </g>
     <g id="ytick_3">
+<<<<<<< HEAD
      <g id="line2d_25">
+=======
+     <g id="line2d_19">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <g>
        <use style="stroke:#000000;stroke-width:0.5;" x="37.45" xlink:href="#m728421d6d4" y="211.324776786"/>
       </g>
      </g>
+<<<<<<< HEAD
      <g id="line2d_26">
+=======
+     <g id="line2d_20">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <g>
        <use style="stroke:#000000;stroke-width:0.5;" x="874.45" xlink:href="#mcb0005524f" y="211.324776786"/>
       </g>
      </g>
+<<<<<<< HEAD
      <g id="text_14">
+=======
+     <g id="text_11">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:end;" transform="rotate(-0.000000, 33.450000, 214.084152)" x="33.45" y="214.084151786">20</text>
      </g>
     </g>
     <g id="ytick_4">
+<<<<<<< HEAD
      <g id="line2d_27">
+=======
+     <g id="line2d_21">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <g>
        <use style="stroke:#000000;stroke-width:0.5;" x="37.45" xlink:href="#m728421d6d4" y="171.467633929"/>
       </g>
      </g>
+<<<<<<< HEAD
      <g id="line2d_28">
+=======
+     <g id="line2d_22">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <g>
        <use style="stroke:#000000;stroke-width:0.5;" x="874.45" xlink:href="#mcb0005524f" y="171.467633929"/>
       </g>
      </g>
+<<<<<<< HEAD
      <g id="text_15">
+=======
+     <g id="text_12">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:end;" transform="rotate(-0.000000, 33.450000, 174.227009)" x="33.45" y="174.227008929">30</text>
      </g>
     </g>
     <g id="ytick_5">
+<<<<<<< HEAD
      <g id="line2d_29">
+=======
+     <g id="line2d_23">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <g>
        <use style="stroke:#000000;stroke-width:0.5;" x="37.45" xlink:href="#m728421d6d4" y="131.610491071"/>
       </g>
      </g>
+<<<<<<< HEAD
      <g id="line2d_30">
+=======
+     <g id="line2d_24">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <g>
        <use style="stroke:#000000;stroke-width:0.5;" x="874.45" xlink:href="#mcb0005524f" y="131.610491071"/>
       </g>
      </g>
+<<<<<<< HEAD
      <g id="text_16">
+=======
+     <g id="text_13">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:end;" transform="rotate(-0.000000, 33.450000, 134.369866)" x="33.45" y="134.369866071">40</text>
      </g>
     </g>
     <g id="ytick_6">
+<<<<<<< HEAD
      <g id="line2d_31">
+=======
+     <g id="line2d_25">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <g>
        <use style="stroke:#000000;stroke-width:0.5;" x="37.45" xlink:href="#m728421d6d4" y="91.7533482143"/>
       </g>
      </g>
+<<<<<<< HEAD
      <g id="line2d_32">
+=======
+     <g id="line2d_26">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <g>
        <use style="stroke:#000000;stroke-width:0.5;" x="874.45" xlink:href="#mcb0005524f" y="91.7533482143"/>
       </g>
      </g>
+<<<<<<< HEAD
      <g id="text_17">
+=======
+     <g id="text_14">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:end;" transform="rotate(-0.000000, 33.450000, 94.512723)" x="33.45" y="94.5127232143">50</text>
      </g>
     </g>
     <g id="ytick_7">
+<<<<<<< HEAD
      <g id="line2d_33">
+=======
+     <g id="line2d_27">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <g>
        <use style="stroke:#000000;stroke-width:0.5;" x="37.45" xlink:href="#m728421d6d4" y="51.8962053571"/>
       </g>
      </g>
+<<<<<<< HEAD
      <g id="line2d_34">
+=======
+     <g id="line2d_28">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <g>
        <use style="stroke:#000000;stroke-width:0.5;" x="874.45" xlink:href="#mcb0005524f" y="51.8962053571"/>
       </g>
      </g>
+<<<<<<< HEAD
      <g id="text_18">
+=======
+     <g id="text_15">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:end;" transform="rotate(-0.000000, 33.450000, 54.655580)" x="33.45" y="54.6555803571">60</text>
      </g>
     </g>
     <g id="ytick_8">
+<<<<<<< HEAD
      <g id="line2d_35">
+=======
+     <g id="line2d_29">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <g>
        <use style="stroke:#000000;stroke-width:0.5;" x="37.45" xlink:href="#m728421d6d4" y="12.0390625"/>
       </g>
      </g>
+<<<<<<< HEAD
      <g id="line2d_36">
+=======
+     <g id="line2d_30">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
       <g>
        <use style="stroke:#000000;stroke-width:0.5;" x="874.45" xlink:href="#mcb0005524f" y="12.0390625"/>
       </g>
      </g>
+<<<<<<< HEAD
      <g id="text_19">
       <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:end;" transform="rotate(-0.000000, 33.450000, 14.798437)" x="33.45" y="14.7984375">70</text>
      </g>
     </g>
     <g id="text_20">
+=======
+     <g id="text_16">
+      <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:end;" transform="rotate(-0.000000, 33.450000, 14.798437)" x="33.45" y="14.7984375">70</text>
+     </g>
+    </g>
+    <g id="text_17">
+>>>>>>> 2426d7825fb3167f275af6a3dba8001a1cb4e4c3
      <text style="font-family:Bitstream Vera Sans;font-size:10.0px;font-style:normal;text-anchor:middle;" transform="rotate(-90.000000, 14.798438, 151.539062)" x="14.7984375" y="151.5390625">Frequency</text>
     </g>
    </g>
