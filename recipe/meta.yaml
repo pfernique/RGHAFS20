@@ -1,0 +1,38 @@
+package:
+  name: rfhafs20
+  version: {{ environ.get('GIT_DESCRIBE_TAG', '').strip('v') }}.{{ GIT_DESCRIBE_NUMBER }}
+
+source:
+  path: ..
+
+build:
+  script:
+    - python setup.py install
+  number: 0
+
+requirements:
+  host:
+    - python
+    - setuptools
+  run:
+    - numpy
+    - matplotlib
+    - pandas
+    - python
+    - scipy
+    - vtk
+
+test:
+  imports:
+    - wanda
+
+about:
+  home: TODO
+  license: Apache License 2.0
+  license_family: APACHE
+  license_file: LICENSE
+  summary: TODO
+
+extra:
+  authors:
+    - Pierre Fernique <pfernique@gmail.com>

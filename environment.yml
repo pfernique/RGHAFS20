@@ -1,0 +1,8 @@
+name: RGHAFS20
+channels:     
+  - local                                                                                                                                           
+  - conda-forge                                                                                                                                          
+  - defaults
+dependencies: 
+  - rfhafs20
+  - jupyter
