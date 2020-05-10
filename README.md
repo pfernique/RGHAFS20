@@ -48,9 +48,9 @@ Once **Conda** is installed, to install the required packages, proceed as as fol
      
 3. Activate the **Conda** environment as advised in your terminal.
 
-  ```console
+   ```console
      conda activate RGHAFS20
-  ```
+   ```
   
 4. Launch the **Jupyter** notebook,
 
