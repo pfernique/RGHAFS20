@@ -9,5 +9,5 @@ dependencies:
   - path.py
   - python=3.6
   - r-base=3.6 
-  - rpy2
+  - rpy2=2.9.4
   - rghafs20
