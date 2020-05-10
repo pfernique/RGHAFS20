@@ -4,8 +4,10 @@ channels:
   - conda-forge                                                                                                                                          
   - defaults
 dependencies:
+  - ipython
   - jupyter
   - path.py
-  - r-base 
+  - python=3.6
+  - r-base=3.6 
   - rpy2
   - rghafs20
