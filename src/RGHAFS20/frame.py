@@ -74,7 +74,7 @@ def synchronize(*renderers):
         renderer.SetActiveCamera(camera)
         renderer.ResetCamera()
 
-def show(window, name=None, magnification=2):
+def show(window, name=None, magnification=10):
     interactor = vtk.vtkRenderWindowInteractor()
     interactor.SetRenderWindow(window)
 
@@ -84,7 +84,7 @@ def show(window, name=None, magnification=2):
 
     windowToImageFilter = vtk.vtkWindowToImageFilter()
     windowToImageFilter.SetInput(window)
-    windowToImageFilter.SetMagnification(magnification)
+    windowToImageFilter.setScale(magnification)
     windowToImageFilter.SetInputBufferTypeToRGBA()
     windowToImageFilter.ReadFrontBufferOff()
     windowToImageFilter.Update()
