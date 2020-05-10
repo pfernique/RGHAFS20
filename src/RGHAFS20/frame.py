@@ -82,25 +82,25 @@ def show(window, name=None, magnification=10):
     window.Render()
     interactor.Start()
 
-    windowToImageFilter = vtk.vtkWindowToImageFilter()
-    windowToImageFilter.SetInput(window)
-    # windowToImageFilter.SetScale(magnification)
-    windowToImageFilter.SetInputBufferTypeToRGBA()
-    windowToImageFilter.ReadFrontBufferOff()
-    windowToImageFilter.Update()
-    writer = vtk.vtkPNGWriter()
-    if name is None:
-        filehandler = NamedTemporaryFile(delete=False)
-    else:
-        filehandler = open(name, 'w')
-    writer.SetFileName(filehandler.name)
-    writer.SetInputConnection(windowToImageFilter.GetOutputPort())
-    writer.Write()
-    window.Finalize()
-    interactor.TerminateApp()
-    del interactor
-    axes = plt.subplot()
-    axes.imshow(img.imread(filehandler.name))
-    axes.axis('off')
-    if name is None:
-        os.unlink(filehandler.name)
+    # windowToImageFilter = vtk.vtkWindowToImageFilter()
+    # windowToImageFilter.SetInput(window)
+    # # windowToImageFilter.SetScale(magnification)
+    # windowToImageFilter.SetInputBufferTypeToRGBA()
+    # windowToImageFilter.ReadFrontBufferOff()
+    # windowToImageFilter.Update()
+    # writer = vtk.vtkPNGWriter()
+    # if name is None:
+    #     filehandler = NamedTemporaryFile(delete=False)
+    # else:
+    #     filehandler = open(name, 'w')
+    # writer.SetFileName(filehandler.name)
+    # writer.SetInputConnection(windowToImageFilter.GetOutputPort())
+    # writer.Write()
+    # window.Finalize()
+    # interactor.TerminateApp()
+    # del interactor
+    # axes = plt.subplot()
+    # axes.imshow(img.imread(filehandler.name))
+    # axes.axis('off')
+    # if name is None:
+    #     os.unlink(filehandler.name)
