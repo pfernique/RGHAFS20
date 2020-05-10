@@ -95,6 +95,9 @@ def show(window, name=None, magnification=10):
     # windowToImageFilter = vtk.vtkWindowToImageFilter()
     # windowToImageFilter.SetInput(window)
     # # windowToImageFilter.SetScale(magnification)
+    interactor2 = vtk.vtkRenderWindowInteractor()
+    interactor2.SetRenderWindow(window)
+    window.Render()
     windowToImageFilter = vtk.vtkWindowToImageFilter()
     windowToImageFilter.SetInput(window)
     windowToImageFilter.SetInputBufferTypeToRGBA()
@@ -108,6 +111,7 @@ def show(window, name=None, magnification=10):
     writer.SetFileName(filehandler.name)
     writer.SetInputConnection(windowToImageFilter.GetOutputPort())
     writer.Write()
+    interactor2.Start()
     # interactor.Initialize()
     del interactor
     # axes = plt.subplot()
