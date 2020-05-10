@@ -86,6 +86,7 @@ def show(window, name='scene.png', magnification=10):
       windowToImageFilter.ReadFrontBufferOff()
       windowToImageFilter.SetScale(magnification)
       windowToImageFilter.Update()
+      window.Render()
       writer = vtk.vtkPNGWriter()
       writer.SetFileName(name)
       writer.SetInputConnection(windowToImageFilter.GetOutputPort())
