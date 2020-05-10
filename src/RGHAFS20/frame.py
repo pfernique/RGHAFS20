@@ -84,6 +84,7 @@ def show(window, name='scene.svg', magnification=10):
     windowToImageFilter.SetInput(window)
     windowToImageFilter.SetInputBufferTypeToRGBA()
     windowToImageFilter.ReadFrontBufferOff()
+    windowToImageFilter.SetScale(magnification)
     windowToImageFilter.Update()
     writer = vtk.vtkPNGWriter()
     writer.SetFileName(name)
