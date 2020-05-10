@@ -32,7 +32,7 @@ Once **Conda** is installed, to install the required packages, proceed as as fol
 1. Clone this repository,
 
    ```console
-     git clone git://github.com/pfernique/RGHAFS20
+     git clone git://github.com/pfernique/wanda
    ```
 2. Go to the repository directory
 
