@@ -3,6 +3,9 @@ channels:
   - local                                                                                                                                           
   - conda-forge                                                                                                                                          
   - defaults
-dependencies: 
-  - rfhafs20
+dependencies:
   - jupyter
+  - path.py
+  - r-base 
+  - rpy2
+  - rghafs20

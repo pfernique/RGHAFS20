@@ -1,5 +1,5 @@
 package:
-  name: rfhafs20
+  name: rghafs20
   version: {{ environ.get('GIT_DESCRIBE_TAG', '').strip('v') }}.{{ GIT_DESCRIBE_NUMBER }}
 
 source:
@@ -24,7 +24,7 @@ requirements:
 
 test:
   imports:
-    - wanda
+    - RGHAFS20
 
 about:
   home: TODO
