@@ -88,7 +88,7 @@ def show(window, name=None, magnification=10):
       exporter.SetFileFormatToSVG()
       exporter.CompressOff()
       exporter.DrawBackgroundOff()
-      exporter.SetFilePrefix(os.path.splitext(file_name)[0])
+      exporter.SetFilePrefix(os.path.splitext(name)[0])
       exporter.Write()
     # windowToImageFilter = vtk.vtkWindowToImageFilter()
     # windowToImageFilter.SetInput(window)
