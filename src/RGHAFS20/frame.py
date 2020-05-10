@@ -78,9 +78,10 @@ def show(window, name=None, magnification=10):
     interactor = vtk.vtkRenderWindowInteractor()
     interactor.SetRenderWindow(window)
 
-
-
-
+    interactor.Initialize()
+    window.Render()
+    interactor.Start()
+    
     # if name is None:
     #   delete = True
     #   name = 'scene.svg'
