@@ -79,9 +79,7 @@ def show(window, name=None, magnification=10):
     interactor.SetRenderWindow(window)
 
 
-    interactor.Initialize()
-    window.Render()
-    interactor.Start()
+
 
     # if name is None:
     #   delete = True
@@ -111,6 +109,9 @@ def show(window, name=None, magnification=10):
     writer.SetFileName(filehandler.name)
     writer.SetInputConnection(windowToImageFilter.GetOutputPort())
     writer.Write()
+    interactor.Initialize()
+    window.Render()
+    interactor.Start()
     window.Finalize()
     interactor.TerminateApp()
     del interactor
