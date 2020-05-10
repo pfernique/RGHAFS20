@@ -84,7 +84,7 @@ def show(window, name=None, magnification=10):
 
     windowToImageFilter = vtk.vtkWindowToImageFilter()
     windowToImageFilter.SetInput(window)
-    windowToImageFilter.SetScale(magnification)
+    # windowToImageFilter.SetScale(magnification)
     windowToImageFilter.SetInputBufferTypeToRGBA()
     windowToImageFilter.ReadFrontBufferOff()
     windowToImageFilter.Update()
