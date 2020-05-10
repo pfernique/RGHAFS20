@@ -78,7 +78,8 @@ def show(window, name='scene.png', magnification=10):
     interactor = vtk.vtkRenderWindowInteractor()
     interactor.SetRenderWindow(window)
 
-    def OnClose(window, event):
+    def OnClose(interactor, event):
+      window = interactor.GetRenderWindow()
       windowToImageFilter = vtk.vtkWindowToImageFilter()
       windowToImageFilter.SetInput(window)
       windowToImageFilter.SetInputBufferTypeToRGBA()
@@ -91,7 +92,7 @@ def show(window, name='scene.png', magnification=10):
       writer.Write()
       window.Finalize()
 
-    window.AddObserver("ExitEvent", OnClose)
+    interactor.AddObserver("ExitEvent", OnClose)
 
     window.Render()
 
