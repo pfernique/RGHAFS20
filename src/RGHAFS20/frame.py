@@ -82,6 +82,14 @@ def show(window, name=None, magnification=10):
     window.Render()
     interactor.Start()
 
+    if name is not None:
+      exporter = vtk.vtkGL2PSExporter()
+      exporter.SetRenderWindow(window)
+      exporter.SetFileFormatToSVG()
+      exporter.CompressOff()
+      exporter.DrawBackgroundOff()
+      exporter.SetFilePrefix(os.path.splitext(file_name)[0])
+      exporter.Write()
     # windowToImageFilter = vtk.vtkWindowToImageFilter()
     # windowToImageFilter.SetInput(window)
     # # windowToImageFilter.SetScale(magnification)
