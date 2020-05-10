@@ -80,20 +80,18 @@ def show(window, name='scene.svg', magnification=10):
 
     window.Render()
 
-    exporter = vtk.vtkSVGExporter()
-    exporter.SetRenderWindow(window)
-    # exporter.SetFileFormatToSVG()
-    # exporter.CompressOff()
-    # exporter.DrawBackgroundOff()
-    exporter.SetFileName(name)
-    exporter.Write()
+    windowToImageFilter = vtk.vtkWindowToImageFilter()
+    windowToImageFilter.SetInput(window)
+    windowToImageFilter.SetInputBufferTypeToRGBA()
+    windowToImageFilter.ReadFrontBufferOff()
+    windowToImageFilter.Update()
+    writer = vtk.vtkPNGWriter()
+    writer.SetFileName(name)
+    writer.SetInputConnection(windowToImageFilter.GetOutputPort())
+    writer.Write()
 
     interactor.Initialize()
     interactor.Start()
+    writer.Write()
 
     del interactor
-    # axes = plt.subplot()
-    # axes.imshow(img.imread(filehandler.name))
-    # axes.axis('off')
-    # if name is None:
-    #     os.unlink(filehandler.name)
