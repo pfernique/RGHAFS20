@@ -74,25 +74,28 @@ def synchronize(*renderers):
         renderer.SetActiveCamera(camera)
         renderer.ResetCamera()
 
-def show(window, name='scene.svg', magnification=10):
+def show(window, name='scene.png', magnification=10):
     interactor = vtk.vtkRenderWindowInteractor()
     interactor.SetRenderWindow(window)
 
-    window.Render()
+    def OnClose(window, event):
+      windowToImageFilter = vtk.vtkWindowToImageFilter()
+      windowToImageFilter.SetInput(window)
+      windowToImageFilter.SetInputBufferTypeToRGBA()
+      windowToImageFilter.ReadFrontBufferOff()
+      windowToImageFilter.SetScale(magnification)
+      windowToImageFilter.Update()
+      writer = vtk.vtkPNGWriter()
+      writer.SetFileName(name)
+      writer.SetInputConnection(windowToImageFilter.GetOutputPort())
+      writer.Write()
+      window.Finalize()
 
-    windowToImageFilter = vtk.vtkWindowToImageFilter()
-    windowToImageFilter.SetInput(window)
-    windowToImageFilter.SetInputBufferTypeToRGBA()
-    windowToImageFilter.ReadFrontBufferOff()
-    windowToImageFilter.SetScale(magnification)
-    windowToImageFilter.Update()
-    writer = vtk.vtkPNGWriter()
-    writer.SetFileName(name)
-    writer.SetInputConnection(windowToImageFilter.GetOutputPort())
-    writer.Write()
+    window.AddObserver("ExitEvent", OnClose)
+
+    window.Render()
 
     interactor.Initialize()
     interactor.Start()
-    writer.Write()
 
     del interactor
