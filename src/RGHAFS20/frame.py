@@ -82,14 +82,18 @@ def show(window, name=None, magnification=10):
     window.Render()
     interactor.Start()
 
-    if name is not None:
-      exporter = vtk.vtkGL2PSExporter()
-      exporter.SetRenderWindow(window)
-      exporter.SetFileFormatToSVG()
-      exporter.CompressOff()
-      exporter.DrawBackgroundOff()
-      exporter.SetFilePrefix(os.path.splitext(name)[0])
-      exporter.Write()
+    if name is None:
+      delete = True
+      name = 'scene.svg'
+    else:
+      delete = False
+    exporter = vtk.vtkGL2PSExporter()
+    exporter.SetRenderWindow(interactor.GetRenderWindow())
+    exporter.SetFileFormatToSVG()
+    exporter.CompressOff()
+    exporter.DrawBackgroundOff()
+    exporter.SetFilePrefix(os.path.splitext(name)[0])
+    exporter.Write()
     # windowToImageFilter = vtk.vtkWindowToImageFilter()
     # windowToImageFilter.SetInput(window)
     # # windowToImageFilter.SetScale(magnification)
