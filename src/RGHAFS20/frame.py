@@ -78,10 +78,8 @@ def show(window, name=None, magnification=10):
     interactor = vtk.vtkRenderWindowInteractor()
     interactor.SetRenderWindow(window)
 
-    interactor.Initialize()
     window.Render()
-    interactor.Start()
-    
+
     # if name is None:
     #   delete = True
     #   name = 'scene.svg'
@@ -111,10 +109,7 @@ def show(window, name=None, magnification=10):
     writer.SetInputConnection(windowToImageFilter.GetOutputPort())
     writer.Write()
     interactor.Initialize()
-    window.Render()
     interactor.Start()
-    window.Finalize()
-    interactor.TerminateApp()
     del interactor
     # axes = plt.subplot()
     # axes.imshow(img.imread(filehandler.name))
