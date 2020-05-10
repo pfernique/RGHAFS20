@@ -39,7 +39,8 @@ Once **Conda** is installed, to install the required packages, proceed as as fol
    ```console
      cd RGHAFS20
    ```
-2. Create a **Conda** environment :code:`RGHAFS20`,
+
+2. Create a **Conda** environment `RGHAFS20`,
       
    ```console
      conda env create -f environment.yml
