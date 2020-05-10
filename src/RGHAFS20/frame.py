@@ -98,22 +98,22 @@ def show(window, name=None, magnification=10):
     interactor2 = vtk.vtkRenderWindowInteractor()
     interactor2.SetRenderWindow(window)
     window.Render()
-    windowToImageFilter = vtk.vtkWindowToImageFilter()
-    windowToImageFilter.SetInput(window)
-    windowToImageFilter.SetInputBufferTypeToRGBA()
-    windowToImageFilter.ReadFrontBufferOff()
-    windowToImageFilter.Update()
-    writer = vtk.vtkPNGWriter()
-    if name is None:
-        filehandler = NamedTemporaryFile(delete=False)
-    else:
-        filehandler = open(name, 'w')
-    writer.SetFileName(filehandler.name)
-    writer.SetInputConnection(windowToImageFilter.GetOutputPort())
-    writer.Write()
+    # windowToImageFilter = vtk.vtkWindowToImageFilter()
+    # windowToImageFilter.SetInput(window)
+    # windowToImageFilter.SetInputBufferTypeToRGBA()
+    # windowToImageFilter.ReadFrontBufferOff()
+    # windowToImageFilter.Update()
+    # writer = vtk.vtkPNGWriter()
+    # if name is None:
+    #     filehandler = NamedTemporaryFile(delete=False)
+    # else:
+    #     filehandler = open(name, 'w')
+    # writer.SetFileName(filehandler.name)
+    # writer.SetInputConnection(windowToImageFilter.GetOutputPort())
+    # writer.Write()
     interactor2.Start()
     # interactor.Initialize()
-    del interactor
+    # del interactor
     # axes = plt.subplot()
     # axes.imshow(img.imread(filehandler.name))
     # axes.axis('off')
