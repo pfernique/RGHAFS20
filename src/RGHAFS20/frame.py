@@ -78,8 +78,6 @@ def show(window, name=None, magnification=10):
     interactor = vtk.vtkRenderWindowInteractor()
     interactor.SetRenderWindow(window)
 
-    windowToImageFilter = vtk.vtkWindowToImageFilter()
-    windowToImageFilter.SetInput(window)
 
     interactor.Initialize()
     window.Render()
@@ -100,6 +98,8 @@ def show(window, name=None, magnification=10):
     # windowToImageFilter = vtk.vtkWindowToImageFilter()
     # windowToImageFilter.SetInput(window)
     # # windowToImageFilter.SetScale(magnification)
+    windowToImageFilter = vtk.vtkWindowToImageFilter()
+    windowToImageFilter.SetInput(window)
     windowToImageFilter.SetInputBufferTypeToRGBA()
     windowToImageFilter.ReadFrontBufferOff()
     windowToImageFilter.Update()
