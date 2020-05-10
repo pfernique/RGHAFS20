@@ -25,7 +25,7 @@ Here is the the citation formated as the bibtex standart.
 ```
 
 You can install required packages on your computer to reproduce this study.
-In order to ease the installation of these packages on multiple operating systems, the **Conda** `package and environment management system <https://conda.io/docs/>`_ is used.
+In order to ease the installation of these packages on multiple operating systems, the **Conda** [package and environment management system](https://conda.io/docs/) is used.
 Therefore is **Conda** is not installed on your computer, refers to this [page]() for more information.
 Once **Conda** is installed, to install the required packages, proceed as as follows:
 
