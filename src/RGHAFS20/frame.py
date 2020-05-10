@@ -82,7 +82,7 @@ def show(window, name='scene.svg', magnification=10):
 
     exporter = vtk.vtkSVGExporter()
     exporter.SetRenderWindow(window)
-    exporter.SetFileFormatToSVG()
+    # exporter.SetFileFormatToSVG()
     exporter.CompressOff()
     exporter.DrawBackgroundOff()
     exporter.SetFilePrefix(os.path.splitext(name)[0])
