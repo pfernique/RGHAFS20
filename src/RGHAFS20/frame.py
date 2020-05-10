@@ -79,7 +79,7 @@ def show(window, name=None, magnification=10):
     interactor.SetRenderWindow(window)
 
     window.Render()
-
+    interactor.Start()
     # if name is None:
     #   delete = True
     #   name = 'scene.svg'
@@ -108,8 +108,7 @@ def show(window, name=None, magnification=10):
     writer.SetFileName(filehandler.name)
     writer.SetInputConnection(windowToImageFilter.GetOutputPort())
     writer.Write()
-    interactor.Initialize()
-    interactor.Start()
+    # interactor.Initialize()
     del interactor
     # axes = plt.subplot()
     # axes.imshow(img.imread(filehandler.name))
