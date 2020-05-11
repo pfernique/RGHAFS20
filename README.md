@@ -62,4 +62,4 @@ Once **Conda** is installed, to install the required packages, proceed as as fol
    ```
      
 6. Execute the code corresponding to this study.
-   This study is formatted as a **Jupyter** notebook, refers to this [page](https://jupyter.readthedocs.io/en/latest/index.html) for more information.
+   This study is formatted as a **Jupyter** notebook, refers to this [page](https://jupyter.readthedocs.io/en/latest/index.html) for more information. You can look on this [page](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook) for a tutorial.
