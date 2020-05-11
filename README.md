@@ -43,6 +43,9 @@ Once **Conda** is installed, to install the required packages, proceed as as fol
 2. Create a **Conda** environment `RGHAFS20`,
       
    ```console
+     conda activate
+     conda install conda-build -y
+     conda build recipe -c conda-forge -c defaults --override-channels --python=3.6
      conda env create -f environment.yml
    ```
      
