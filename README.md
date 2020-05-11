@@ -37,7 +37,7 @@ Once **Conda** is installed, to install the required packages, proceed as as fol
 2. Go to the repository directory
 
    ```console
-     cd RGHAFS20
+     cd wanda
    ```
 
 2. Create a **Conda** environment `RGHAFS20`,
