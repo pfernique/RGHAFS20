@@ -26,7 +26,7 @@ Here is the the citation formated as the bibtex standart.
 
 You can install required packages on your computer to reproduce this study.
 In order to ease the installation of these packages on multiple operating systems, the **Conda** [package and environment management system](https://conda.io/docs/) is used.
-Therefore if **Conda** is not installed on your computer, refers to this [page](https://docs.conda.io/projects/conda/en/latest/user-guide/install/) for more information (You have the choice between **Miniconda** and **Anaconda**, for this study we recommand to install the former one).
+Therefore if **Conda** is not installed on your computer, refers to this [page](https://docs.conda.io/projects/conda/en/latest/user-guide/install/) for more information (You have the choice between **Miniconda** and **Anaconda**, for this study we recommand to install the former one). You can look on this [page](https://www.datacamp.com/community/tutorials/installing-anaconda-windows) for a tutorial.
 Once **Conda** is installed, to install the required packages, proceed as as follows:
 
 1. Clone this repository,
@@ -62,4 +62,4 @@ Once **Conda** is installed, to install the required packages, proceed as as fol
    ```
      
 6. Execute the code corresponding to this study.
-   This study is formatted as a **Jupyter** notebook, refers to this [page](https://jupyter.readthedocs.io/en/latest/index.html) for more information.
+   This study is formatted as a **Jupyter** notebook, refers to this [page](https://jupyter.readthedocs.io/en/latest/index.html) for more information. You can look on this [page](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook) for a tutorial.
