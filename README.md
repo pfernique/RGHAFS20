@@ -18,7 +18,7 @@ Here is the the citation formated as the bibtex standart.
   @article{RGHAFS20,
     author    = {Etienne Rastoin, Jordan Goetze, Euan Harvey, David Acuña-Marrero, Pierre Fernique, Pelayo Salinas de Leon},
     title     = {A diver operated stereo-video approach for characterizing reef fish spawning aggregations: the Galapagos Marine Reserve as case study},
-    journal   = {Estuarine, Coastal and Shelf Scienc},
+    journal   = {Estuarine, Coastal and Shelf Science},
     year      = {2020},
     url       = {TODO},
   }
